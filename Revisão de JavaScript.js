@@ -92,6 +92,7 @@ const peçaDecarro = [
   }
 ];
 
+// Arrow function e map 
 const novasPeças = peçaDecarro.map(peça => ({
   Roda: ` ${peça.Roda}(Nova)`,
   Porta: ` ${peça.Porta}(Nova)`,
